@@ -29,7 +29,7 @@ npm install
 # or
 yarn
 # or
-pnpm install
+npm install
 # or
 bun install
 
