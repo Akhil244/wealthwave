@@ -45,18 +45,6 @@ bun dev
 
 Visit http://localhost:3000 to view the app in your browser.
 
-Project Structure
+### Fonts & Optimization
 
-.
-├── app/                # Next.js app directory (pages, layout, routing)
-│   ├── page.tsx        # Main landing page
-│   └── layout.tsx      # App layout wrapper
-├── components/         # Shared React components
-├── public/             # Static assets (images, icons, etc.)
-├── styles/             # Global styles and CSS modules
-├── app/api/            # API routes (backend functions)
-├── next.config.js      # Next.js configuration
-└── README.md           # Project documentation
-
-Fonts & Optimization
 This project uses next/font for automatic optimization and loading of Google Fonts. The Inter font is used by default.
