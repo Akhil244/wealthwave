@@ -1,15 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Project Starter
+This is a Next.js project bootstrapped using create-next-app. It provides a modern web development architecture with features like routing, API handling, and static site generation.
 
-Project Architecture:
+🏗️ Project Architecture
+![image](https://github.com/user-attachments/assets/b3b9929b-978c-44d9-a9fb-264cde0be1ca)
 
-![image](https://github.com/user-attachments/assets/8c19c2a0-16a9-4773-aab4-84cb3082980e)
 
+This diagram showcases the structure and flow of the application, from UI to backend API and services. Key features include:
 
-## Getting Started
+Modular file structure under the app/ directory
 
-First, run the development server:
+API routes, components, and layout separation
 
-```bash
+Optimized font loading via next/font
+
+Easy scalability and maintainability
+
+⚙️ Getting Started
+First, install the dependencies:
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+Then, start the development server:
+
+bash
+Copy
+Edit
 npm run dev
 # or
 yarn dev
@@ -17,25 +40,32 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Open your browser and navigate to http://localhost:3000 to see the application running.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📂 File Overview
+app/page.tsx – Main landing page of the app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+app/layout.tsx – Global layout (header/footer/wrappers)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+app/api/ – API route handlers (Next.js backend functions)
 
-## Learn More
+components/ – Reusable React components
 
-To learn more about Next.js, take a look at the following resources:
+public/ – Static assets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+styles/ – Global and component styles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🌐 Fonts & Optimization
+This project uses next/font for automatic Google Fonts optimization. Currently, it includes the Inter font.
 
-## Deploy on Vercel
+📚 Learn More
+Next.js Documentation – Learn about the framework features and APIs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js Tutorial – Hands-on interactive course
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next.js GitHub – View source code and contribute
+
+🚀 Deployment
+The easiest way to deploy your app is via Vercel – the creators of Next.js.
+
+For manual or CI/CD deployment, refer to the official Next.js Deployment Docs.
