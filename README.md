@@ -1,26 +1,30 @@
-Next.js Project Starter
-This is a Next.js project bootstrapped using create-next-app. It provides a modern web development architecture with features like routing, API handling, and static site generation.
+# 🚀 Next.js Project Starter
 
-🏗️ Project Architecture
-![image](https://github.com/user-attachments/assets/b3b9929b-978c-44d9-a9fb-264cde0be1ca)
+This is a **[Next.js](https://nextjs.org/)** project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It follows a modular architecture for scalability, performance, and developer experience.
 
+---
 
-This diagram showcases the structure and flow of the application, from UI to backend API and services. Key features include:
+## 🏗️ Project Architecture
 
-Modular file structure under the app/ directory
+![Project Architecture](https://github.com/user-attachments/assets/8c19c2a0-16a9-4773-aab4-84cb3082980e)
 
-API routes, components, and layout separation
+This diagram outlines the architectural design of the project including core directories, components, and API routes.
 
-Optimized font loading via next/font
+**Highlights:**
+- Modular structure with `app/`, `components/`, and `api/`
+- Page-based routing
+- Centralized layout configuration
+- Reusable and scalable component design
+- Font optimization via `next/font`
 
-Easy scalability and maintainability
+---
 
-⚙️ Getting Started
-First, install the dependencies:
+## ⚙️ Getting Started
 
-bash
-Copy
-Edit
+Follow these steps to run the development server:
+
+### 1. Install dependencies
+
 npm install
 # or
 yarn
@@ -28,11 +32,9 @@ yarn
 pnpm install
 # or
 bun install
-Then, start the development server:
 
-bash
-Copy
-Edit
+## 2. Start the development server
+
 npm run dev
 # or
 yarn dev
@@ -40,32 +42,21 @@ yarn dev
 pnpm dev
 # or
 bun dev
-Open your browser and navigate to http://localhost:3000 to see the application running.
 
-📂 File Overview
-app/page.tsx – Main landing page of the app
+Visit http://localhost:3000 to view the app in your browser.
 
-app/layout.tsx – Global layout (header/footer/wrappers)
+Project Structure
 
-app/api/ – API route handlers (Next.js backend functions)
+.
+├── app/                # Next.js app directory (pages, layout, routing)
+│   ├── page.tsx        # Main landing page
+│   └── layout.tsx      # App layout wrapper
+├── components/         # Shared React components
+├── public/             # Static assets (images, icons, etc.)
+├── styles/             # Global styles and CSS modules
+├── app/api/            # API routes (backend functions)
+├── next.config.js      # Next.js configuration
+└── README.md           # Project documentation
 
-components/ – Reusable React components
-
-public/ – Static assets
-
-styles/ – Global and component styles
-
-🌐 Fonts & Optimization
-This project uses next/font for automatic Google Fonts optimization. Currently, it includes the Inter font.
-
-📚 Learn More
-Next.js Documentation – Learn about the framework features and APIs
-
-Next.js Tutorial – Hands-on interactive course
-
-Next.js GitHub – View source code and contribute
-
-🚀 Deployment
-The easiest way to deploy your app is via Vercel – the creators of Next.js.
-
-For manual or CI/CD deployment, refer to the official Next.js Deployment Docs.
+Fonts & Optimization
+This project uses next/font for automatic optimization and loading of Google Fonts. The Inter font is used by default.
