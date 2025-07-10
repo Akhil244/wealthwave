@@ -1,10 +1,10 @@
-# 🚀 Next.js Project Starter
+# Next.js Project Starter
 
 This is a **[Next.js](https://nextjs.org/)** project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It follows a modular architecture for scalability, performance, and developer experience.
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ![Project Architecture](https://github.com/user-attachments/assets/8c19c2a0-16a9-4773-aab4-84cb3082980e)
 
@@ -19,7 +19,7 @@ This diagram outlines the architectural design of the project including core dir
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 Follow these steps to run the development server:
 
