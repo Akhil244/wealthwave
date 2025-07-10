@@ -25,24 +25,21 @@ Follow these steps to run the development server:
 
 ### 1. Install dependencies
 
-npm install
-# or
-yarn
-# or
-npm install
-# or
-bun install
+Use one of the following commands depending on your preferred package manager:
 
-## 2. Start the development server
+```bash
+npm install       # For npm
+yarn              # For Yarn
+bun install       # For Bun
+```
 
-npm run dev
-# or
-yarn dev
-# or
-npm dev
-# or
-bun dev
+### 2. Start the development server
 
+```
+npm run dev       # For npm
+yarn dev          # For Yarn
+bun dev           # For Bun
+```
 Visit http://localhost:3000 to view the app in your browser.
 
 ### Fonts & Optimization
